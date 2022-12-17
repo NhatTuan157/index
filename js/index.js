@@ -145,14 +145,14 @@ let showCard10 = setTimeout(function(){
         (bbb.getBoundingClientRect().y <= e.clientY && e.clientY <= bbb.getBoundingClientRect().y + bbb.getBoundingClientRect().height)){
           index++;
           bbb.style.marginTop = (Math.floor(Math.random() * (207))) + 'px';
-          bbb.style.marginLeft = (Math.floor(Math.random() * (320 + 320)) -320) + 'px';
-          if(flag && index == 5){
-            alert('Đừng quá cố, phải ở Bình Dương thì mới click được :)))')
+          bbb.style.marginLeft = (Math.floor(Math.random() * (326 + 326)) -326) + 'px';
+          if(flag && index == 4){
+            alert('Nút này sản xuất ở Bình Dương đấy, độc lạ lắm :)))')
           }
-          else if(index == 5){
+          else if(index == 4){
             index = 0;
             flag = true;
-            alert('Hong click được hỡ :)). \nNói chứ anh giỡn á :)))). Mong em hoàn tất hết công việc nhen. \nSinh Nhật Vui Vẽ ^^')
+            alert('Hong click được hỡ :)). \nNói chứ anh giỡn á :)))). Mong em hoàn tất hết công việc nhen. \nSinh Nhật Vui Vẻ ^^')
           }
     }
   }
